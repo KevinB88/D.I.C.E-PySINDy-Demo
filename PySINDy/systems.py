@@ -1,3 +1,11 @@
+import numpy as np
+# Each system returns the derivative given current state and parameters
+
+# 1. Lorenz System:
+# Models atmospheric convection with three variables (x, y, z)
+# Parameters: sigma, rho, beta
+# Typical chaotic system
+
 def lorenz_system(t, state, sigma=10.0, rho=28.0, beta=8 / 3):
     x, y, z = state
     dx = sigma * (y - x)
@@ -64,29 +72,3 @@ def linear_system(t, state, a=0.5, b=1.0, c=-1.0, d=0.5):
     dx = a * x + b * y
     dy = c * x + d * y
     return [dx, dy]
-
-
-if __name__ == "__main__":
-    systems = {
-        "lorenz": (lorenz_system, [1.0, 1.0, 1.0], (0, 40), (10.0, 28.0, 8/3)),
-        "vanderpol": (van_der_pol, [2.0, 0.0], (0, 20), (1.0,)),
-        "duffing": (duffing, [1.0, 0.0], (0, 40), (0.2, -1.0, 1.0, 0.3, 1.2)),
-        "lotka": (lotka_volterra, [10.0, 5.0], (0, 20), (1.5, 1.0, 1.0, 3.0)),
-        "harmonic": (harmonic_oscillator, [1.0, 0.0], (0, 20), (1.0,)),
-        "pendulum": (pendulum, [np.pi / 4, 0.0], (0, 20), (9.81, 1.0)),
-        "linear": (linear_system, [1.0, 1.0], (0, 20), (0.5, 1.0, -1.0, 0.5))
-    }
-
-    system_name = "lorenz"
-    func, ic, span, args = systems[system_name]
-
-    run_discovery_pipeline(
-        ode_func=func,
-        ode_args=args,
-        initial_conditions=ic,
-        t_span=span,
-        system_name=system_name,
-        add_noise_to_data=False,
-        snr_db=20,
-        sindy_threshold=0.2
-    )
