@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6a0eb0c-7ba3-48c9-a054-56f51a976942" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/Install_Dependencies.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/Quick_Start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/latex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/results/linear/linear_comparison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/results/linear/linear_mse_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/results/linear/linear_prediction_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/results/linear/linear_trajectory.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/results/linear/linear_trajectory_comparison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/sindy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/systems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySINDy/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySINDy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySINDy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySINDy/demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySINDy/results/lorenz/lorenz_comparison.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySINDy/results/lorenz/lorenz_prediction_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySINDy/results/lorenz/lorenz_trajectory.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySINDy/results/lorenz/lorenz_trajectory_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySINDy/temp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-    </list>
+    <list default="true" id="c6a0eb0c-7ba3-48c9-a054-56f51a976942" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
